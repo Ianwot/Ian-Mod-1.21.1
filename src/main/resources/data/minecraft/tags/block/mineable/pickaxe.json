@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "ianmod:abalone_block",
+    "ianmod:abalone_pearl_block",
+    "ianmod:abalone_tiles",
+    "ianmod:abomasite_block",
+    "ianmod:abomasite_ore",
+    "ianmod:amethyst_ore"
+  ]
+}

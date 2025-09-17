@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ianmod:abalone_shell"
+  },
+  "result": {
+    "count": 1,
+    "id": "ianmod:abalone_gem"
+  }
+}

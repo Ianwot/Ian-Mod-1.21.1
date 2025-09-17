@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 4,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:sand"
+        },
+        "state": {
+          "Name": "ianmod:abalone_sand"
+        }
+      }
+    ]
+  }
+}

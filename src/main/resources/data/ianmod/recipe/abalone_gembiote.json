@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ianmod:abalone_shell"
+    },
+    "B": {
+      "item": "ianmod:blue_diamond_essence"
+    },
+    "Y": {
+      "item": "ianmod:yellow_diamond_essence"
+    },
+    "P": {
+      "item": "ianmod:pink_diamond_essence"
+    }
+  },
+  "pattern": [
+    "YAB",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ianmod:abalone_gembiote"
+  }
+}

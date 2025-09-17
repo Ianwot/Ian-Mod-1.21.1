@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": {
+    "item": "ianmod.abalone_pearl_block"
+  },
+  "result": {
+    "count": 9,
+    "id": "ianmod:abalone_pearl_gem"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "ianmod:rubber_ball"
+    },
+    "B": {
+      "item": "minecraft:lime_carpet"
+    }
+  },
+  "pattern": [
+    "B",
+    "A"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ianmod:tennis_ball"
+  }
+}
