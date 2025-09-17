@@ -2,10 +2,14 @@ package com.gmail.siskian4000.ianmod;
 
 import com.gmail.siskian4000.ianmod.block.ModBlocks;
 import com.gmail.siskian4000.ianmod.entity.ModEntities;
+import com.gmail.siskian4000.ianmod.entity.client.LionRenderer;
 import com.gmail.siskian4000.ianmod.item.ModCreativeModeTabs;
 import com.gmail.siskian4000.ianmod.item.ModItems;
 import com.gmail.siskian4000.ianmod.sound.ModSounds;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -83,4 +87,10 @@ public class IanMod {
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {}
+
+    public static class ClientModEvents {
+        public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.LION.get(), LionRenderer::new);
+        }
+    }
 }

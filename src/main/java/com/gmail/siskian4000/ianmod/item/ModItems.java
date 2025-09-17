@@ -1,11 +1,13 @@
 package com.gmail.siskian4000.ianmod.item;
 
 import com.gmail.siskian4000.ianmod.IanMod;
+import com.gmail.siskian4000.ianmod.entity.ModEntities;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tiers;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
